@@ -54,7 +54,7 @@ const questions = [
     explanation: "Warming up prepares muscles and joints for movement, helping reduce the risk of injury."
   },
    {
-    question: "Why is warming up before exercise important?",
+    question: "What does 'listen to your body' commonly mean in fitness and rehab?",
     options: [
       "Ignore all discomfort",
       "Distinguish between good muscular fatigue and sharp, harmful pain",
