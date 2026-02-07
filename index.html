@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BodyWise Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main class="container">
+
+  <!-- START SCREEN -->
+  <section id="start-screen" class="card">
+    <header>
+      <h1>BodyWise Quiz</h1>
+    </header>
+    <p>
+      A short quiz to check your everyday health and movement knowledge.
+    </p>
+    <button id="start-btn">Start Quiz</button>
+  </section>
+
+  <!-- QUIZ SCREEN -->
+  <section id="quiz-screen" class="card hidden">
+    <p id="progress"></p>
+    <h2 id="question-text"></h2>
+    <div id="answers"></div>
+    <p id="explanation" class="explanation hidden"></p>
+  </section>
+
+  <!-- RESULT SCREEN -->
+  <section id="result-screen" class="card hidden">
+    <h2>Your BodyWise Result</h2>
+    <p id="score-text"></p>
+    <p id="health-tip"></p>
+    <button id="restart-btn">Restart Quiz</button>
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
